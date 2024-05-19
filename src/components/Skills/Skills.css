@@ -1,0 +1,73 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    min-height: 100%;
+    justify-content: center;
+    vertical-align: middle;
+}
+.skillsHeading{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+.allSkills{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.eachType{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+.skillSide{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(217, 225, 223);
+    background-color: #212121;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+    border: 1px solid rgb(217, 225, 223);
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.282);
+    font-weight: 800;
+}
+.indiSkill{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.skillsImage{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #212121;
+    padding: 10px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.282);
+}
+
+@media (max-width: 1000px){
+    .skills{
+        width: 90%;
+    }
+   
+}

@@ -1,0 +1,40 @@
+.socials{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+    min-height: 50vh;
+    justify-content: center;
+    vertical-align: middle;
+    margin-bottom: 20vh;
+}
+.socialImage{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #212121;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.282);
+    padding: 10px;
+    border-radius: 100%;
+}
+.socialsHeading{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+.social{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (max-width:1000px) {
+    .socials{
+        margin-top: 20vh;
+    }
+}

@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  gap: 30px;
+  min-height: 90%;
+  text-align: center;
+  width: 80vw;
+}
+#home{
+  z-index: 10;
+}
+.homePage{
+  background-color: #212121;
+  z-index: -1;
+  height: 100vh;
+}
+.typer{
+  font-weight: 800;
+    color: rgb(217, 225, 223);
+}
+.cv{
+    background-color: transparent;
+    color: rgb(217, 225, 223);
+    padding: 20px;
+    border:2px solid rgb(217, 225, 223);
+    border-radius: 30px;
+    margin-top: 20px;
+    width: max-content;
+    transition: none;
+}
+.cv:hover{
+    background-color: rgb(217, 225, 223);
+    color: black;
+}
+
+.left-content {
+  text-align: center;
+    min-width: 50%;
+}
+
+.line1 {
+  color: rgb(217, 225, 223);
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.line2 {
+  color: rgb(217, 225, 223);
+  font-size: 100px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.line3 {
+  color: rgb(217, 225, 223);
+  font-size: 30px;
+  font-weight:300;
+  margin-bottom: 10px;
+}
+.right-content {
+  text-align: center;
+}
+
+.myimage {
+  max-width: 80%;
+  height: auto;
+  max-height: 80%;
+  margin: auto;
+  background-color: rgb(217, 225, 223);
+  border: 1px solid black;
+  border-radius: 300px 20px 300px 300px;
+  box-shadow: 18px 17px 0px 0px rgba(0, 0, 0, 0.282);
+}
+.karthik{
+    background: rgb(217, 225, 223) !important;
+    color: #212121;
+    padding: 5px 30px;
+    transform: rotate(10deg);
+  }
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    width: 100vw;
+  }
+  .line2{
+    font-size: 50px;
+  }
+
+  .left-content {
+    text-align: center;
+  }
+
+  .right-content {
+    text-align: center;
+  }
+  .myimage{
+    max-width: 80%;
+  }
+  
+}
+@media (max-width: 500px) {
+    .line1{
+        font-size: 20px;
+    }
+    .line2{
+        font-size: 40px;
+    }
+    .line3{
+        font-size: 20px;
+    }
+}

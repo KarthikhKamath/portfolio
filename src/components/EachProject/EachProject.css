@@ -1,0 +1,42 @@
+.eachProject{
+    background-color: #212121;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.282);
+}
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(217, 225, 223);
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.plink{
+    text-decoration: none;
+}
+.plink:hover{
+    background-color: transparent;
+}
+
+.btn{
+    color: black;
+    background-color: rgb(217, 225, 223);
+    padding: 10px;
+    width: fit-content;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color: rgb(217, 225, 223);
+    border: 1px solid rgb(217, 225, 223);
+}
+.image{
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(217, 225, 223);
+}

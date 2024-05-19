@@ -1,0 +1,12 @@
+.eachSkill {
+  background-color: #212121;
+  width: fit-content;
+  padding: 20px;
+  color: rgb(217, 225, 223);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this line to center vertically */
+  text-align: center;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.282);
+}
