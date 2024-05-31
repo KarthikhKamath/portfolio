@@ -17,14 +17,6 @@ function Skills() {
             <img src={image} alt="skills" className="skillsImage" />
             <div className="skillsHeading">Skills</div>
             <div
-                data-aos="fade"
-                data-aos-offset="0"
-                data-aos-delay="50"
-                data-aos-duration="500"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                data-aos-once="false"
-                data-aos-anchor-placement="top-center" 
                 className="allSkills">
                 <div  className="eachType">
                     <div className="skillSide">Languages</div>
@@ -36,14 +28,6 @@ function Skills() {
                 </div>
 
                 <div
-                    data-aos="fade"
-                    data-aos-offset="0"
-                    data-aos-delay="50"
-                    data-aos-duration="500"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false"
-                    data-aos-anchor-placement="top-center" 
                     className="eachType">
                     <div className="skillSide">Technologies</div>
                     <div className="indiSkill">
@@ -60,14 +44,6 @@ function Skills() {
                 </div>
 
                 <div
-                    data-aos="fade"
-                    data-aos-offset="0"
-                    data-aos-delay="50"
-                    data-aos-duration="500"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false"
-                    data-aos-anchor-placement="top-center" 
                     className="eachType">
                     <div className="skillSide">Tools</div>
                     <div className="indiSkill">
@@ -81,15 +57,7 @@ function Skills() {
                     </div>
                 </div>
 
-                <div
-                    data-aos="fade"
-                    data-aos-offset="0"
-                    data-aos-delay="50"
-                    data-aos-duration="500"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false"
-                    data-aos-anchor-placement="top-center" className="eachType">
+                <div className="eachType">
                     
                     <div className="skillSide">Specialised Areas</div>
                     <div className="indiSkill">

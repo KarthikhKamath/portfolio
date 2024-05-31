@@ -14,6 +14,7 @@ import Dice from "../../assets/dice.png"
 import jobs from "../../assets/jobs.png"
 import user from "../../assets/user.png"
 import infinite from "../../assets/infinite.png"
+import todo from "../../assets/todo.png"
 import { Link } from 'react-router-dom'
 
 function ProjectPage() {
@@ -41,29 +42,31 @@ function ProjectPage() {
             <Link to={"/"} className='viewAll'><button>Home</button></Link>
             <div className="allProj">
 
-                <EachProject heading="Job Portal" image={jobs} live="https://kartjobs.netlify.app/" github="https://github.com/KarthikhKamath/kartjobfullstack" />
+                <EachProject heading="Job Portal" image={jobs} live="https://kartjobs.netlify.app/" github="https://github.com/KarthikhKamath/kartjobfullstack" techUsed="ReactJs, ExpressJs, MongoDB, JWT Auth, Rest API" />
 
-                <EachProject heading="Writify-Blogging Site" image={writify} live="https://kartblogs.netlify.app/" github="https://github.com/KarthikhKamath/Writify_fullStackApp" />
+                <EachProject heading="Writify-Blogging Site" image={writify} live="https://kartblogs.netlify.app/" github="https://github.com/KarthikhKamath/Writify_fullStackApp" techUsed="ReactJs, MUI, ExpressJs, MongoDB, JWT Auth, Rest API" />
 
-                <EachProject heading="Movie Website" image={movieTime} live="https://kart-movie-time.netlify.app/" github="https://github.com/KarthikhKamath/movie-time" />
+                <EachProject heading="Movie Website" image={movieTime} live="https://kart-movie-time.netlify.app/" github="https://github.com/KarthikhKamath/movie-time" techUsed="ReactJs, Redux, Scss, TMDB API, Infinite Scroll" />
 
-                <EachProject heading="Infinite Users" image={infinite} live="https://kart-infinite-jobs.netlify.app/" github="https://github.com/KarthikhKamath/post-infinite-scroll" />
+                <EachProject heading="Infinite Users" image={infinite} live="https://kart-infinite-jobs.netlify.app/" github="https://github.com/KarthikhKamath/post-infinite-scroll" techUsed="ReactJs, WeekDay API, Infinite Scroll" />
 
-                <EachProject heading="Dummy user dashboard" image={user} live="https://kart-user-management.netlify.app/" github="https://github.com/KarthikhKamath/user-management" />
+                <EachProject heading="Todo app" image={todo} live="https://kart-todo.netlify.app/" github="https://github.com/KarthikhKamath/todo-fastapi-backend.git" techUsed="ReactJs, FastAPI, MongoDB" />
 
-                <EachProject heading="URL Shortener" image={url} live="https://urlshortener-27oh.onrender.com/" github="https://github.com/KarthikhKamath/urlShortener" />
+                <EachProject heading="Dummy user dashboard" image={user} live="https://kart-user-management.netlify.app/" github="https://github.com/KarthikhKamath/user-management" techUsed="ReactJs" />
 
-                <EachProject heading="Calculator" image={calculator} live="https://kartcalculator.netlify.app/" github="https://github.com/KarthikhKamath/Calculator" />
+                <EachProject heading="URL Shortener" image={url} live="https://urlshortener-27oh.onrender.com/" github="https://github.com/KarthikhKamath/urlShortener" techUsed="ReactJs, MongoDB, ExpressJs" />
 
-                <EachProject heading="Landing Page" image={Landing} live="https://kartlandingpage.netlify.app/" github="https://github.com/KarthikhKamath/Landing-Page" />
+                <EachProject heading="Calculator" image={calculator} live="https://kartcalculator.netlify.app/" github="https://github.com/KarthikhKamath/Calculator" techUsed="HTML, CSS, Javascript" />
 
-                <EachProject heading="Gamezo" image={Gamezo} live="https://gamezo.netlify.app/" github="https://github.com/KarthikhKamath/WebDevProject" />
+                <EachProject heading="Landing Page" image={Landing} live="https://kartlandingpage.netlify.app/" github="https://github.com/KarthikhKamath/Landing-Page" techUsed="HTML, CSS" />
 
-                <EachProject heading="Bubble Game" image={Bubble} live="https://kartbubblegame.netlify.app/" github="https://github.com/KarthikhKamath/bubble-game" />
+                <EachProject heading="Gamezo" image={Gamezo} live="https://gamezo.netlify.app/" github="https://github.com/KarthikhKamath/WebDevProject" techUsed="HTML, CSS, Javascript"  />
 
-                <EachProject heading="Tic Tac Toe Game" image={Tic} live="https://kart-tictactoe.netlify.app/" github="https://github.com/KarthikhKamath/tic-tac-toe" />
+                <EachProject heading="Bubble Game" image={Bubble} live="https://kartbubblegame.netlify.app/" github="https://github.com/KarthikhKamath/bubble-game" techUsed="HTML, CSS, Javascript" />
 
-                <EachProject heading="Dice Game" image={Dice} live="https://kartdicegame.netlify.app/" github="https://github.com/KarthikhKamath/DicePage" />
+                <EachProject heading="Tic Tac Toe Game" image={Tic} live="https://kart-tictactoe.netlify.app/" github="https://github.com/KarthikhKamath/tic-tac-toe" techUsed="HTML, CSS, Javascript" />
+
+                <EachProject heading="Dice Game" image={Dice} live="https://kartdicegame.netlify.app/" github="https://github.com/KarthikhKamath/DicePage" techUsed="HTML, CSS, Javascript" />
 
             </div>
         </div>

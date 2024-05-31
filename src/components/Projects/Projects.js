@@ -24,11 +24,11 @@ function Projects() {
       <div className="projectsHeading">Projects</div>
       <div className="allProj">
 
-        <EachProject heading="Job Portal" image={jobs} live="https://kartjobs.netlify.app/" github="https://github.com/KarthikhKamath/kartjobfullstack" />
+      <EachProject heading="Job Portal" image={jobs} live="https://kartjobs.netlify.app/" github="https://github.com/KarthikhKamath/kartjobfullstack" techUsed="ReactJs, ExpressJs, MongoDB, JWT Auth, Rest API" />
 
-        <EachProject heading="Writify-Blogging Site" image={writify} live="https://kartblogs.netlify.app/" github="https://github.com/KarthikhKamath/Writify_fullStackApp" />
+<EachProject heading="Writify-Blogging Site" image={writify} live="https://kartblogs.netlify.app/" github="https://github.com/KarthikhKamath/Writify_fullStackApp" techUsed="ReactJs, MUI, ExpressJs, MongoDB, JWT Auth, Rest API" />
 
-        <EachProject heading="Movie Website" image={movieTime} live="https://kart-movie-time.netlify.app/" github="https://github.com/KarthikhKamath/movie-time" />
+<EachProject heading="Movie Website" image={movieTime} live="https://kart-movie-time.netlify.app/" github="https://github.com/KarthikhKamath/movie-time" techUsed="ReactJs, Redux, Scss, TMDB API, Infinite Scroll" />
 
       </div>
       <Link to={"/projects"} className='viewAll'><button>View All</button></Link>
