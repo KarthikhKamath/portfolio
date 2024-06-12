@@ -33,12 +33,13 @@ function Skills() {
                     <div className="indiSkill">
                         <EachSkill content="HTML" />
                         <EachSkill content="CSS" />
-                        <EachSkill content="MaterialUI" />
-                        <EachSkill content="Bootstrap" />
                         <EachSkill content="ReactJs" />
                         <EachSkill content="NodeJs" />
                         <EachSkill content="ExpressJs" />
+                        <EachSkill content="NestJs" />
                         <EachSkill content="MongoDB" />
+                        <EachSkill content="PostgreSQL" />
+                        <EachSkill content="SQLite" />
                         <EachSkill content="REST API" />
                     </div>
                 </div>
@@ -49,10 +50,10 @@ function Skills() {
                     <div className="indiSkill">
                         <EachSkill content="VS Code" />
                         <EachSkill content="Git and Github" />
+                        <EachSkill content="Swagger" />
                         <EachSkill content="Postman" />
                         <EachSkill content="Canva" />
                         <EachSkill content="Figma" />
-                        <EachSkill content="NodeJs" />
                         <EachSkill content="Photoshop" />
                     </div>
                 </div>

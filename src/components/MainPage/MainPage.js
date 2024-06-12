@@ -7,6 +7,7 @@ import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
 import Socials from '../Socials/Socials'
 import Footer from '../Footer/Footer'
+import Contact from '../Contact/Contact'
 
 function MainPage() {
   return (
@@ -20,6 +21,7 @@ function MainPage() {
           <Skills />
           <Projects />
           <Socials />
+          <Contact/>
           <Footer />
       </div>
   )

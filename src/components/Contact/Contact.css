@@ -1,0 +1,129 @@
+/* Contact.css */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin: 10vh auto;
+    gap: 20px;
+    justify-content: center;
+    vertical-align: middle;
+    min-width: 350px;
+}
+
+.contactHeading {
+    color: rgb(217, 225, 223);
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contactHeading::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: rgb(217, 225, 223);
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background: #212121;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form h2 {
+    margin-bottom: 1rem;
+    color: #ddd;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    color: rgb(217, 225, 223);
+    text-align: left;
+    width: 100%;
+    
+    transition: color 0.3s ease;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 300px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none; /* Remove outline */
+    background: rgb(217, 225, 223);
+    color: #ddd;
+    transition: border-color 0.3s ease;
+
+}
+.contact-form textarea{
+    height: 200px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: rgb(217, 225, 223);
+}
+
+.contact-form button {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgb(217, 225, 223);
+    border: 1px solid rgb(217, 225, 223);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 30px;
+}
+
+.contact-form button:hover {
+    background-color: rgb(217, 225, 223);
+    color: #212121;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #aaa;
+}
+
+.contact-form input:focus::placeholder,
+.contact-form textarea:focus::placeholder {
+    color: #666;
+}
+.contactImage{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}

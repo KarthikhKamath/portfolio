@@ -15,6 +15,7 @@ import jobs from "../../assets/jobs.png"
 import user from "../../assets/user.png"
 import infinite from "../../assets/infinite.png"
 import todo from "../../assets/todo.png"
+import timetable from "../../assets/timetable.png"
 import { Link } from 'react-router-dom'
 
 function ProjectPage() {
@@ -41,6 +42,7 @@ function ProjectPage() {
             <div className="projectsHeading">Projects</div>
             <Link to={"/"} className='viewAll'><button>Home</button></Link>
             <div className="allProj">
+            <EachProject heading="Timetable Maker" image={timetable} live="https://kart-timetable-maker.netlify.app/" github="https://github.com/KarthikhKamath/make-a-timetable" techUsed="ReactJs, Express Js, SQLite, Rest API" />
 
                 <EachProject heading="Job Portal" image={jobs} live="https://kartjobs.netlify.app/" github="https://github.com/KarthikhKamath/kartjobfullstack" techUsed="ReactJs, ExpressJs, MongoDB, JWT Auth, Rest API" />
 
